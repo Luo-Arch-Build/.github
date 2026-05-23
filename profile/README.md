@@ -1,29 +1,32 @@
 # Luo Arch Build
 
-ROI-driven software engineering. Outcomes over output.
+Software thought through, with rigor.
 
-## Premise
+## What we are
 
-Software exists to move a business metric. Architecture, methodology,
-and automation are means to that end — never the product. Work shipped
-from this lab is judged by the outcome it unlocks: revenue protected,
-risk closed, cost removed, time given back.
+Olorunx is the professional practice around how we think, design, build,
+review, and deliver software. The work is judged by what it unlocks:
+revenue protected, risk closed, cost removed, time given back. ROI-driven
+when it matters; method-driven always.
 
-## How that translates to engineering practice
+## How we work
 
-- **Bet the smallest scope that moves the metric.** Shape Up framing before code; if the bet can't tie back to an outcome, it isn't shaped.
-- **S-DROP-G as the durability lens.** Security · Data · Resilience · Observability · Platform · Governance — applied so the outcome survives past launch week.
-- **Zero Trust by default.** No implicit network, identity, or supply-chain trust. Closes the silent tail risk that erases ROI six months later.
-- **Blameless engineering.** Incidents are reviewed for system conditions, not individuals. Faster learning, lower drag.
-- **Test pyramid as evidence, not ritual.** Static → unit → service → contract → integration → e2e → live, weighted by where regressions actually cost money.
-- **Continuous delivery as the closing loop.** Build → review → QA → ship, with auditable handoffs.
+- **S-DROP-G** — Security · Data · Resilience · Observability · Platform · Governance, applied as a review lens before approving non-trivial changes.
+- **Zero Trust** — no implicit network, identity, or supply-chain trust; least privilege by default.
+- **Blameless engineering** — incidents and post-mortems are reviewed for system conditions, not individuals (Allspaw, Cook).
+- **Test pyramid as evidence** — static → unit → service → contract → integration → e2e → live; coverage shape is asserted, not assumed (Cohn).
+- **Shape Up for scope, TDD for execution** — bets are shaped before they are built; tests are written before the code they justify (Singer, Beck).
+- **Continuous delivery as the closing loop** — build → review → QA → ship, with auditable handoffs (Humble).
 
-## What lives here
+## Where the work lives
 
-Most engineering output is intentionally private. This org anchors a
-small set of public methodology artifacts and reference designs as
-they mature and prove out.
+Most engineering output is intentionally kept in private repos. This org
+anchors a small set of public methodology artifacts, agent definitions,
+and reference architectures as they mature.
+
+Stack focus: monorepos · multi-agent pipelines · PostgreSQL · Node/TypeScript ·
+Go · Python · Cloudflare · AWS · self-hosted Linux.
 
 ## Contact
 
-luoarch@proton.me
+[olorunx.com](https://olorunx.com) · contact@olorunx.com · luoarch@proton.me
